@@ -1,0 +1,47 @@
+body {
+    background-color: darkgrey;
+}
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: left;
+}
+
+#timer {
+    display: flex;
+    justify-content: right;
+}
+
+.choiceBtn {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    margin: 10px;
+}
+
+#start {
+    width: 150px;
+    height: 100px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#questionList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}

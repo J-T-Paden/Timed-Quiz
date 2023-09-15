@@ -10,20 +10,19 @@
     <header>
 Timed Quiz
     </header>
-    <div id="timer"> Timer
+    <div id="timer"> Click start to begin timer.
     </div>
-<div class="container"> Question goes here.
-    <div>
-    <ul id="questionList">
-        <li><button class="choiceBtn" >Choice 1</button></li>
-        <li><button class="choiceBtn" >Choice 2</button></li>
-        <li><button class="choiceBtn" >Choice 3</button></li>
-        <li><button class="choiceBtn" >Choice 4</button></li>
-    </ul>
+<div class="container">
+    <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+        <button class="choiceBtn" >Choice 1</button>
+        <button class="choiceBtn" >Choice 2</button>
+        <button class="choiceBtn" >Choice 3</button>
+        <button class="choiceBtn" >Choice 4</button>
     </div>
-    <div id="startDiv">
-    <button id="start">Start</button>
     </div>
+        <button id="start">Start</button>
 </div>
 <script src="main.js"></script>
 </body>
